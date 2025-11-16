@@ -4,14 +4,53 @@ body{
     justify-content: center;
     align-items: center;
 }
+h1{
+    color: white;
+}
+.calculator{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(42, 145, 183);
+    width: 450px;
+    height: 550px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+.btn.operator{
+    background-color: white;
+    color: black;
+}
+.btn.clear{
+    background-color: white;
+    color: black;
+}
+.result{
+    background-color: white;
+    width: 370px;
+    height: 60px;
+    font-size: 4rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
 .container{
-    width: 480px;
-    height: 480px;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    height: 400px;
+    width: 400px;
+    padding: 10px;
 }
 .btn{
-  width: 120px;  
-  height: 120px;
-  border-radius: 50%;
+  border-radius: 10px;
+  width: 90px;
+  height: 90px;
+  background-color: black;
+  color: white;
 }
