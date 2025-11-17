@@ -3,9 +3,14 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color:dimgrey;
 }
 h1{
     color: white;
+}
+.btn.equals{
+    background-color: white;
+    color: black;
 }
 .calculator{
     display: flex;
